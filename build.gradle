@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+apply plugin: 'maven'
+
+sourceCompatibility = 1.6
+targetCompatibility = 1.6
+
+repositories {
+  mavenLocal()
+  maven {
+    url 'http://robotbrains.hideho.org/nexus/content/groups/ros-public'
+  }
+}
+
+version = '0.0.0-SNAPSHOT'
+group = 'ros.my_stack'
+
+dependencies {
+  compile 'ros.rosjava_core:rosjava:0.0.0-SNAPSHOT'
+}
+

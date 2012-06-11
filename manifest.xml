@@ -1,0 +1,14 @@
+<package>
+  <description brief="subsumption">
+
+     subsumption
+
+  </description>
+  <author>Jeremiah Via</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/subsumption</url>
+
+</package>
+
+

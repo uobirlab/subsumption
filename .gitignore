@@ -1,0 +1,12 @@
+*.class
+.gradle/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Intellij Files #
+*.iml
+*.ipr
+*.iws
