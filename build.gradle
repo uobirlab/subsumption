@@ -13,10 +13,6 @@ repositories {
   }
 }
 
-version = '0.0.0-SNAPSHOT'
-group = 'ros.my_stack'
-
-dependencies {
-  compile 'ros.rosjava_core:rosjava:0.0.0-SNAPSHOT'
-}
+version = '0.0.1'
+group = 'barc.subsumption'
 
