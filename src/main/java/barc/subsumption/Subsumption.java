@@ -20,7 +20,7 @@ public class Subsumption implements Runnable {
     private int active = NONE;
     private int highestPriority = NONE;
 
-    private List<Behavior> behaviors;
+    private List<barc.subsumption.Behavior> behaviors;
 
     /**
      * Create the subsumption architecture with the list of behaviors a robot
@@ -31,7 +31,7 @@ public class Subsumption implements Runnable {
      *
      * @param behaviors the list of behaviors
      */
-    public Subsumption(List<Behavior> behaviors) {
+    public Subsumption(List<barc.subsumption.Behavior> behaviors) {
         this.behaviors = behaviors;
     }
 
